@@ -1,0 +1,34 @@
+.image-carousel {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.image-carousel__image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.image-carousel__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.image-carousel__button--prev {
+  left: 10px;
+}
+
+.image-carousel__button--next {
+  right: 10px;
+}

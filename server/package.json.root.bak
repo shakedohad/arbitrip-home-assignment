@@ -1,0 +1,12 @@
+{
+  "name": "arbitrip-home-assignment-root",
+  "private": true,
+  "scripts": {
+    "server": "node server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "react-leaflet": "^4.2.1"
+  }
+}
