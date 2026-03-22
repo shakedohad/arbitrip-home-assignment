@@ -12,3 +12,6 @@ For hotel text to be translated via the Google Gemini API:
 If the key is missing or invalid, the server still runs but returns **identity** translations (original English text) for dynamic fields.
 
 Optional: set `GEMINI_MODEL` in the same `.env` file to force a specific model name (see `server/services/translationService.js` for fallbacks).
+
+Remarks:
+1. The data loaded from the server is through a `.jsonl` file. Modifying its data will require a server restart.
